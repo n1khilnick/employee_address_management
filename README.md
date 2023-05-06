@@ -44,12 +44,12 @@
 ```
 
 * Update Employee by Job ID
-```http
+```*.sh-session
   http://localhost:8080/employee/{employeeId}/firstName/{firstName}/lastName/{lastName}
 ```
 
 * Delete Employee by ID
-```http
+```*.sh-session
   http://localhost:8080/employee/{employeeId}
 ```
 <br>
@@ -73,12 +73,12 @@
 ```
 
 * Update Address's Street by Address ID
-```http
+```*.sh-session
   http://localhost:8080/address/{addressId}/{street}
 ```
 
 * Delete Address by ID
-```http
+```*.sh-session
   http://localhost:8080/address/{addressId}
 ```
 
