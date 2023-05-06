@@ -14,7 +14,7 @@
 * It consists of **Employee** and **Address** entity classes along with their data members and member functions
 * Used **_@Table_** and **_@Entity_** annotations inside the entity class.
 * Used Lombok to reduce boilerplate code for pojo class.By using Lombok annotations like _**@Data,**_ **@_NoArgsConstructor_**, **_@AllArgsConstructor_** getters and setters for those object generate automatically.
-* Used **_@OneToOne**_ annotation to perform one to one mapping between Employee and Address.
+* Used _**@OneToOne**_ annotation to perform one to one mapping between Employee and Address.
 
 ### 2. Controller:
 * It consists of **EmployeeController** and **AddressController** classes in which used the annotations like **@RestController** to annotate the class as Controller.
@@ -91,7 +91,7 @@
 * It consists of **IEmployeeDao** and **IAddressDao** interface classes that extends CrudRepository which is interface for generic inbuilt CRUD operations on a repository for a specific type. Usually represent the database access layer in an application.
 * Used **Iterable** for Employee and Address to manage the data of Employee and Address by performing CRUD operations.
 * Used _**@Repository**_ annotation is used to indicate that the class provides the mechanism for storage, retrieval, search, update and delete operation on objects.
-* Used **_@Modifying_** annotation wrote named parameters query using @Query annotation to insert, update, or delete an entity.
+* Used _**@Modifying**_ annotation wrote named parameters query using @Query annotation to insert, update, or delete an entity.
 
 ## Data Structure Used
 Used `Iterable<T>` for Employee and Address to store the User type object.
