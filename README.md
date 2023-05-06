@@ -27,7 +27,7 @@
 
 >Employee's API References
 <br>
-> 
+
 * Add Employee:
 ```*.sh-session
   http://localhost:8080/employee/
@@ -43,7 +43,7 @@
   http://localhost:8080/employee/{employeeId}
 ```
 
-* Update Employee by Job ID
+* Update Employee by Employee ID
 ```*.sh-session
   http://localhost:8080/employee/{employeeId}/firstName/{firstName}/lastName/{lastName}
 ```
